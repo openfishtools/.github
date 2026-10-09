@@ -4,6 +4,6 @@
 
   # OpenFishTools
 
-  <p>Open-source motion graphics and video editing tools.</p>
+  <p>An open-source suite of motion graphics and video editing tools.</p>
 
 </div>
