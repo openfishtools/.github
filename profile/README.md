@@ -12,9 +12,10 @@
 
 ### Work Progress
 
-- **[Studio](https://github.com/openfishtools/Studio)**
-  - Text engine development
-- **[web](https://github.com/openfishtools/web)**
-  - Migration to [web-tools](https://github.com/openfishtools/web-tools)
-- **[CEP](https://github.com/openfishtools/CEP)**
-  - Stable (no active tasks)
+Overview of ongoing development and maintenance across repositories:
+
+| Repository | Status | Current Focus |
+| :--- | :---: | :--- |
+| **[Studio](https://github.com/openfishtools/Studio)** | `In Progress` | Text engine development |
+| **[web](https://github.com/openfishtools/web)** | `In Progress` | Migrating tools to [web-tools](https://github.com/openfishtools/web-tools) |
+| **[CEP](https://github.com/openfishtools/CEP)** | `Stable` | Up to date, no active tasks |
