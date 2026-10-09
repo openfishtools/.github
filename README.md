@@ -1,136 +1,160 @@
 <div align="center">
 
-  <img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/brand-banner.svg" alt="OpenFishTools Logo" width="180" height="180" style="border-radius: 40px; box-shadow: 0 12px 32px rgba(34, 146, 0, 0.25);" />
+  <a href="https://github.com/openfishtools">
+    <img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/brand-banner.svg" alt="OpenFishTools Banner" width="160" height="160" />
+  </a>
 
   # OpenFishTools
 
-  ### *The Open-Source Creative Ecosystem for Motion Designers & Visual Artists*
-
   <p align="center">
-    <strong>Bridging desktop power with modern, zero-latency client-side browser editing.</strong>
+    <a href="https://github.com/openfishtools">
+      <img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=600&size=18&duration=2500&pause=1000&color=9DFF00&center=true&vCenter=true&width=580&height=40&lines=The+Open-Source+Ecosystem+for+Motion+Designers;Zero-Cloud+Video+Editing+%E2%80%A2+After+Effects+Automation;Hardware-Accelerated+WebCodecs+4K%2F60FPS+Rendering" alt="OpenFishTools Typing Title" />
+    </a>
   </p>
 
   <p align="center">
-    <a href="https://github.com/openfishtools"><img src="https://img.shields.io/badge/GitHub-openfishtools-121212?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Org" /></a>
-    <a href="#-ecosystem"><img src="https://img.shields.io/badge/Ecosystem-4_Projects-229200?style=for-the-badge&logoColor=white" alt="Ecosystem" /></a>
-    <a href="#license"><img src="https://img.shields.io/badge/License-MIT-9DFF00?style=for-the-badge&labelColor=1a2e00&color=9DFF00" alt="License: MIT" /></a>
-    <a href="https://github.com/cutefishaep"><img src="https://img.shields.io/badge/Crafted_by-cutefishaep-6BAE00?style=for-the-badge" alt="Author" /></a>
+    <a href="https://github.com/openfishtools"><img src="https://img.shields.io/badge/GitHub-openfishtools-121212?style=for-the-badge&logo=github&logoColor=white" alt="Organization" /></a>
+    <a href="#-ecosystem--repositories"><img src="https://img.shields.io/badge/Ecosystem-4_Core_Projects-229200?style=for-the-badge&logoColor=white" alt="Ecosystem" /></a>
+    <a href="#license"><img src="https://img.shields.io/badge/License-MIT-9DFF00?style=for-the-badge&labelColor=152800&color=9DFF00" alt="License: MIT" /></a>
+    <a href="https://github.com/cutefishaep"><img src="https://img.shields.io/badge/Author-cutefishaep-6BAE00?style=for-the-badge" alt="Author" /></a>
   </p>
 
   <p align="center">
-    <a href="#-about-openfishtools">About</a> •
-    <a href="#-key-pillars">Key Pillars</a> •
-    <a href="#-ecosystem">Ecosystem</a> •
-    <a href="#-architecture--workflow">Workflow</a> •
-    <a href="#-getting-started">Get Started</a> •
-    <a href="#-community--support">Community</a>
+    <a href="#-philosophy">Philosophy</a> •
+    <a href="#-key-capabilities">Key Capabilities</a> •
+    <a href="#-ecosystem--repositories">Ecosystem</a> •
+    <a href="#-interactive-pipeline">Pipeline</a> •
+    <a href="#-quickstart">Quickstart</a> •
+    <a href="#-contributing">Contributing</a>
   </p>
 
 </div>
 
 ---
 
-## 🌊 About OpenFishTools
-
-Traditional motion graphics and video editing workflows are frequently locked inside heavy proprietary software or throttled by expensive cloud rendering pipelines. 
-
-**OpenFishTools** is built to rethink creative tooling:
-- **Desktop Workflow Optimization**: Native extensions for Adobe After Effects that remove repetitive bottlenecks.
-- **Pure Client-Side Video Creation**: High-performance browser-based non-linear editing using WebCodecs and GPU-accelerated canvas compositing.
-- **Cross-Platform Portability**: Seamless conversion of desktop compositions to mobile animation environments (AE ➔ Alight Motion).
+> [!IMPORTANT]
+> **100% Client-Side & Zero-Cloud Privacy**: OpenFishTools operates entirely on your local hardware. Video decoding, frame composition, shader rendering, and MP4 muxing occur in-browser via the WebCodecs API or natively inside Adobe After Effects. Your creative media never touches a third-party server.
 
 ---
 
-## ✨ Key Pillars
+## 💡 Philosophy
+
+Traditional motion graphics and video editing software suffer from two major extremes: heavy, costly desktop software with proprietary locks, or web editors tethered to recurring cloud rendering subscription fees.
+
+**OpenFishTools** eliminates this divide:
+1. **Unconstrained Desktop Power**: Lightweight Adobe After Effects extension panels that automate curve easing, pre-comp management, and automated background backups.
+2. **True Native Web Video Editing**: A non-linear editor (NLE) operating directly in the browser with desktop-grade track hierarchies, timeline keyframing, and zero cloud render lag.
+3. **Cross-Platform Interoperability**: Seamless translation from desktop After Effects compositions into mobile animation formats (Alight Motion XML).
+
+---
+
+## ⚡ Key Capabilities
 
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h3>⚡ 100% Client-Side & Private</h3>
-      <p>Zero cloud render queues. Video encoding, frame compositing, and shader processing happen entirely on the user's hardware via WebCodecs and MP4-muxer. Your media never leaves your machine.</p>
+      <h3>🚀 Hardware-Accelerated Video Engine</h3>
+      <p>Render 4K/60FPS video straight from your browser using the <strong>WebCodecs API</strong> and <code>mp4-muxer</code>. No server farms, no queues, zero operational cost.</p>
     </td>
     <td width="50%" valign="top">
-      <h3>🎛️ Precision Curve & Motion Control</h3>
-      <p>Professional Bezier easing graphs, real-time curve manipulators, and automated preset injections designed for animators who obsess over motion cadence and fluid timing.</p>
+      <h3>🎛️ Precision Bézier Graph Editor</h3>
+      <p>Fine-tune spatial and temporal interpolation with visual curve manipulators, easing presets, and instant keyframe injection designed for smooth animation cadence.</p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🔄 Universal Composition Bridges</h3>
-      <p>Direct translation pipeline from complex After Effects project hierarchies into lightweight mobile-compatible animation project files with recursive pre-composition nesting.</p>
+      <h3>🔄 Universal Composition Converter</h3>
+      <p>Directly convert complex After Effects compositions into <strong>Alight Motion XML</strong> with recursive pre-composition nesting, layer transforms, and expression baking.</p>
     </td>
     <td width="50%" valign="top">
-      <h3>🧩 Modular Visual Effects Registry</h3>
-      <p>A pluggable registry architecture featuring 50+ built-in optical, chromatic, distortion, and 3D transform modules with instant timeline parameter binding.</p>
+      <h3>🧩 Modular 50+ Visual Shader Registry</h3>
+      <p>Pluggable effect architecture featuring real-time chromatic aberration, camera lens blur, deep glow, and 3D transforms with automated parameter-to-timeline binding.</p>
     </td>
   </tr>
 </table>
 
 ---
 
-## 📦 Ecosystem
+## 📦 Ecosystem & Repositories
 
-OpenFishTools consists of specialized repositories designed to work seamlessly both standalone and together:
-
-| Project | Role | Highlights | Repository |
+| Repository | Focus & Role | Tech Stack | Quick Link |
 | :--- | :--- | :--- | :---: |
-| <img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/logo.svg" width="28" height="28" /> **Studio** | **Web NLE & Motion Engine** | • Desktop AE-style layout & mobile touch canvas<br>• Hardware-accelerated WebCodecs 4K/60fps export<br>• Multi-track keyframe interpolation & curve editor<br>• 50+ modular GPU shaders & visual effects | [**Open Studio**](https://github.com/openfishtools/Studio) |
-| <img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/logo.svg" width="28" height="28" /> **CEP** | **After Effects Panel Extension** | • Interactive Bezier curve easing graph with auto-apply<br>• AE to Alight Motion (AM) composition XML converter<br>• Smart non-disruptive auto-save backup system<br>• Layer alignment, auto-crop, and utility tools | [**Open CEP**](https://github.com/openfishtools/CEP) |
-| <img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/logo.svg" width="28" height="28" /> **Web** | **Portal & Services Platform** | • Unified web platform, preset index, and documentation<br>• Edge-deployed on Cloudflare Workers & Pages<br>• Community templates, scripts, and asset library | [**Open Web**](https://github.com/openfishtools/web) |
-| <img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/logo.svg" width="28" height="28" /> **Web Tools** | **Lightweight Utilities** | • Rapid keyframe data converters & preset builders<br>• Online animation calculators and asset formatters<br>• Zero-install standalone browser helpers | [**Open Tools**](https://github.com/openfishtools/web-tools) |
+| <img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/logo.svg" width="24" height="24" /> **[Studio](https://github.com/openfishtools/Studio)** | **Browser Non-Linear Video Editor**<br>Dual-mode interface (AE-style Desktop Suite + Touch Mobile Editor) with multi-track timeline, visual effects registry, and client-side rendering. | `WebCodecs` `Canvas API` `JavaScript` `CSS Tokens` | [![View Repo](https://img.shields.io/badge/Open-Studio-229200?style=flat-square)](https://github.com/openfishtools/Studio) |
+| <img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/logo.svg" width="24" height="24" /> **[CEP](https://github.com/openfishtools/CEP)** | **Adobe After Effects Extension Panel**<br>Professional workflow utility suite: Bézier easing graph, AE to Alight Motion converter, smart timestamped auto-save, and layer alignment tools. | `Adobe CEP` `ExtendScript` `Node.js` `HTML5` | [![View Repo](https://img.shields.io/badge/Open-CEP-229200?style=flat-square)](https://github.com/openfishtools/CEP) |
+| <img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/logo.svg" width="24" height="24" /> **[web](https://github.com/openfishtools/web)** | **Platform Portal & Asset Hub**<br>Central showcase, documentation, community presets, user scripts, and edge functions. | `Cloudflare Workers` `Pages` `JavaScript` | [![View Repo](https://img.shields.io/badge/Open-Web-229200?style=flat-square)](https://github.com/openfishtools/web) |
+| <img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/logo.svg" width="24" height="24" /> **[web-tools](https://github.com/openfishtools/web-tools)** | **Lightweight Creative Micro-Tools**<br>Online keyframe parsers, format converters, and standalone helpers for animators. | `Vanilla Web` `Micro-Utilities` | [![View Repo](https://img.shields.io/badge/Open-Tools-229200?style=flat-square)](https://github.com/openfishtools/web-tools) |
 
 ---
 
-## 🔁 Architecture & Workflow
+## 🔁 Interactive Pipeline
 
 ```mermaid
 flowchart LR
-    subgraph Desktop["🖥️ Desktop Suite"]
-        AE["Adobe After Effects"] --> CEP["OpenFishTools CEP"]
-        CEP --> Easing["Interactive Graph Editor"]
+    subgraph AE_ENV["🖥️ Adobe After Effects Environment"]
+        AE["After Effects Host"]
+        CEP["OpenFishTools CEP Panel"]
+        AE <--> CEP
         CEP --> AutoSave["Smart Background Backup"]
-        CEP --> Converter["AE ➔ Alight Motion XML"]
+        CEP --> Easing["Graph Editor Easing"]
+        CEP --> Converter["AE ➔ Alight Motion XML Engine"]
     end
 
-    subgraph Browser["🌐 Web Creative Suite"]
-        Studio["OpenFishTools Studio (NLE)"] --> Timeline["Multi-Track Timeline"]
-        Timeline --> FX["Modular FX Registry (50+ Shaders)"]
-        FX --> Canvas["Compositor Engine"]
-        Canvas --> WebCodecs["WebCodecs Hardware Export"]
+    subgraph WEB_ENV["🌐 Web Creative Suite"]
+        Studio["OpenFishTools Studio"]
+        Timeline["Multi-Track Timeline"]
+        FX["Modular FX Registry (50+ Shaders)"]
+        Canvas["GPU Canvas Compositor"]
+        WebCodecs["WebCodecs Hardware Encoder"]
+        
+        Studio --> Timeline --> FX --> Canvas --> WebCodecs
     end
 
-    subgraph Hub["☁️ Hub & Web Services"]
-        WebPortal["Web Portal & Docs"] --> Assets["Presets & Asset Hub"]
-        WebTools["Web Tools"] --> Helpers["Keyframe & Format Utilities"]
-    end
-
-    Converter -.-> Mobile["📱 Alight Motion & Mobile"]
-    WebCodecs --> MP4["🎬 Rendered Video (MP4)"]
-    Desktop <===> Browser
+    Converter -.-> Mobile["📱 Alight Motion & Mobile NLE"]
+    WebCodecs --> Export["🎬 4K/60FPS MP4 Export"]
+    
+    style AE_ENV fill:#16240d,stroke:#6BAE00,stroke-width:1px,color:#fff
+    style WEB_ENV fill:#0f1e09,stroke:#9DFF00,stroke-width:1px,color:#fff
 ```
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Quickstart
 
-Select the tool tailored to your workflow:
+<details>
+  <summary><strong>📥 Installing After Effects CEP Extension</strong></summary>
 
-- **Using After Effects?**
-  Head over to [**openfishtools/CEP**](https://github.com/openfishtools/CEP) and grab the one-click installer (`.pkg` for macOS or `.exe` for Windows).
-- **Want to edit in the browser?**
-  Check out [**openfishtools/Studio**](https://github.com/openfishtools/Studio) to run the zero-dependency local dev server and start editing immediately with client-side GPU export.
-- **Looking for online tools and presets?**
-  Visit [**openfishtools/web**](https://github.com/openfishtools/web) and [**openfishtools/web-tools**](https://github.com/openfishtools/web-tools).
+  1. Download the automated installer from [**openfishtools/CEP Releases**](https://github.com/openfishtools/CEP/releases):
+     - **macOS**: `OpenFishTools.pkg`
+     - **Windows**: `OpenFishTools_Setup.exe`
+  2. Launch Adobe After Effects.
+  3. Navigate to **Window > Extensions > Fish Tools**.
+  4. Ensure `Preferences > Scripting & Expressions > Allow Scripts to Write Files and Access Network` is checked.
+</details>
+
+<details>
+  <summary><strong>💻 Running Studio Locally</strong></summary>
+
+  1. Clone and launch the zero-dependency local dev server:
+     ```bash
+     git clone https://github.com/openfishtools/Studio.git
+     cd Studio
+     npm install
+     npm start
+     ```
+  2. Open your browser:
+     - **Desktop Suite**: `http://localhost:3000/desktop.html`
+     - **Mobile / Responsive Editor**: `http://localhost:3000/editor.html`
+</details>
 
 ---
 
-## 🤝 Community & Contributing
+## 🤝 Contributing
 
-We welcome contributions from motion designers, shader programmers, web developers, and creative minds!
+We welcome pull requests, effect shaders, and workflow tools from developers and motion designers alike!
 
-- 🐛 **Found a bug?** Open an issue in the respective repository.
-- 💡 **Have a feature idea?** Start a discussion or suggest a new modular effect.
-- 🛠️ **Want to submit code?** Pull requests are warmly welcomed across all sub-projects.
+- **Report Issues**: Found a bug? Open an issue in the respective project repository.
+- **Submit Shaders**: Add custom visual effects into the `Studio/effects/` directory.
+- **Discussions**: Share ideas, presets, and workflows with the community.
 
 ---
 
