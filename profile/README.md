@@ -10,24 +10,11 @@
 
 ---
 
-### 🚧 Work Progress
+### Work Progress
 
-Current development status across the OpenFishTools ecosystem:
-
-| Repository / Module | Status | Progress / Current Focus |
-| :--- | :---: | :--- |
-| **[Studio](https://github.com/openfishtools/Studio)** | 🟡 `In Progress` | Text Engine development |
-| **[Web](https://github.com/openfishtools/web)** | 🔄 `In Progress` | Migration to [`web-tools`](https://github.com/openfishtools/web-tools) |
-| **[CEP](https://github.com/openfishtools/CEP)** | 🟢 `Stable` | Up-to-date (no active work in progress) |
-| **Other Components** | 🟢 `Stable` | Up-to-date (no active work in progress) |
-
-#### 📋 Task List
-
-- 🟡 **Studio**
-  - [ ] Implement Text Engine
-- 🔄 **Web**
-  - [ ] Migrate tools into [`web-tools`](https://github.com/openfishtools/web-tools)
-- 🟢 **CEP**
-  - [x] All extension features up-to-date
-- 🟢 **Other Components**
-  - [x] No active work in progress
+- **[Studio](https://github.com/openfishtools/Studio)**
+  - Text engine development
+- **[web](https://github.com/openfishtools/web)**
+  - Migration to [web-tools](https://github.com/openfishtools/web-tools)
+- **[CEP](https://github.com/openfishtools/CEP)**
+  - Stable (no active tasks)
