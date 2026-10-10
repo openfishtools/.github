@@ -159,7 +159,16 @@ Installers for macOS (`.pkg`) and Windows (`.exe`) are on the [CEP releases page
 2. Create a branch and keep changes focused.
 3. Open a pull request describing what changed and why.
 
-All projects are released under the MIT License.
+## Licenses
+
+Each repository has its own license. Check the `LICENSE` file before reusing code.
+
+| Repository | License |
+| :--- | :--- |
+| Studio | MIT |
+| CEP | MIT |
+| web | CC BY-NC-ND 4.0 |
+| web-tools | CC BY-NC 4.0 |
 
 <div align="center">
   <sub>OpenFishTools</sub>
