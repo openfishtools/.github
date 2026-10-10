@@ -18,25 +18,25 @@
     <td align="center" width="25%">
       <a href="https://github.com/openfishtools/web"><img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/projects/web.svg" width="96" height="96" alt="Website" /></a>
       <br /><b>Website</b>
-      <br /><code>v1.0.0</code>
+      <br /><a href="https://github.com/openfishtools/web"><img src="https://img.shields.io/github/package-json/v/openfishtools/web?style=flat&color=21262d&label=" alt="Website version" /></a>
       <br /><sub>web</sub>
     </td>
     <td align="center" width="25%">
       <a href="https://github.com/openfishtools/web-tools"><img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/projects/web-tools.svg" width="96" height="96" alt="Web Tools" /></a>
       <br /><b>Web Tools</b>
-      <br /><code>v1.0.0</code>
+      <br /><a href="https://github.com/openfishtools/web-tools"><img src="https://img.shields.io/github/package-json/v/openfishtools/web-tools?style=flat&color=21262d&label=" alt="Web Tools version" /></a>
       <br /><sub>web-tools</sub>
     </td>
     <td align="center" width="25%">
       <a href="https://github.com/openfishtools/CEP"><img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/projects/cep.svg" width="96" height="96" alt="FishTools" /></a>
       <br /><b>FishTools</b>
-      <br /><code>v1.3.9</code>
+      <br /><a href="https://github.com/openfishtools/CEP"><img src="https://img.shields.io/github/package-json/v/openfishtools/CEP?style=flat&color=21262d&label=" alt="FishTools version" /></a>
       <br /><sub>CEP</sub>
     </td>
     <td align="center" width="25%">
       <a href="https://github.com/openfishtools/Studio"><img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/projects/studio.svg" width="96" height="96" alt="FishTools" /></a>
       <br /><b>FishTools</b>
-      <br /><code>v0.5.132</code>
+      <br /><a href="https://github.com/openfishtools/Studio"><img src="https://img.shields.io/github/package-json/v/openfishtools/Studio?style=flat&color=21262d&label=" alt="FishTools Studio version" /></a>
       <br /><sub>Studio</sub>
     </td>
   </tr>
