@@ -31,8 +31,8 @@
       <br /><sub>CEP</sub>
     </td>
     <td align="center" width="25%">
-      <a href="https://github.com/openfishtools/Studio"><img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/projects/studio.svg" width="96" height="96" alt="FishTools Studio" /></a>
-      <br /><b>FishTools Studio</b>
+      <a href="https://github.com/openfishtools/Studio"><img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/projects/studio.svg" width="96" height="96" alt="FishTools" /></a>
+      <br /><b>FishTools</b>
       <br /><sub>Studio</sub>
     </td>
   </tr>
