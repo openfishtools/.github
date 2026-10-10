@@ -4,7 +4,7 @@
 
   # OpenFishTools
 
-  **Open-source motion graphics and video editing tools. Built for editors, runs in your browser.**
+  **Open-source motion graphics and video editing tools.**
 
   <a href="https://github.com/openfishtools/Studio"><img src="https://img.shields.io/badge/Studio-In_Progress-9DFF00?style=for-the-badge&labelColor=121212" alt="Studio" /></a>
   <a href="https://github.com/openfishtools/web"><img src="https://img.shields.io/badge/Web-In_Progress-9DFF00?style=for-the-badge&labelColor=121212" alt="Web" /></a>
@@ -15,14 +15,11 @@
 
 ---
 
-> [!IMPORTANT]
-> **Private by design.** Studio and Web Tools process media locally in your browser (WebCodecs, WebAssembly, WebGPU). Your files are never uploaded to a server.
+## Projects
 
-## What we build
-
-- **A real editor in a browser tab.** Multi-track timeline, keyframes, blend modes and an effect plugin registry, with no install.
-- **Small tools that do one job well.** Compress, extract, convert, upscale, remove a background. Open, drop a file, done.
-- **Native workflow helpers.** An After Effects panel for easing, auto save and conversion to Alight Motion.
+- **Studio**: a browser-based video editor with a multi-track timeline, keyframes and an effect plugin registry.
+- **Web Tools**: small utilities for video, audio, image and Alight Motion files.
+- **CEP**: an After Effects panel for easing, auto save and conversion to Alight Motion.
 
 ---
 
@@ -69,7 +66,7 @@
 
 ---
 
-### Web Tools: creative utilities that run client-side
+### Web Tools
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/screenshots/web-tools-grid.png" alt="Creative Tools grid" width="100%" />
@@ -88,7 +85,7 @@
 | **Quality method** | TikTok | Patch and compress video for higher quality uploads |
 | **TikTok Downloader / Statistics** | TikTok | Download without watermark, inspect metadata |
 
-Every tool is a self-describing module. Load it from the CDN and run it in your own page, no clone needed:
+Each tool is a standalone script. It can be loaded from the CDN without cloning the repository:
 
 ```html
 <script src="https://cdn.jsdelivr.net/gh/openfishtools/web-tools/video/audio-extractor-tool.js"></script>
