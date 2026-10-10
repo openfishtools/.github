@@ -62,6 +62,21 @@
 
 ---
 
+<div align="center">
+
+## Status
+
+| Project | Repository | Status | Focus |
+| :--- | :--- | :---: | :--- |
+| Website | [web](https://github.com/openfishtools/web) | `In Progress` | Migrating tools to Web Tools |
+| Web Tools | [web-tools](https://github.com/openfishtools/web-tools) | `Active` | Tool modules and CDN delivery |
+| FishTools | [CEP](https://github.com/openfishtools/CEP) | `Stable` | Up to date, no active tasks |
+| FishTools Studio | [Studio](https://github.com/openfishtools/Studio) | `In Progress` | Text engine development |
+
+</div>
+
+---
+
 ## Showcase
 
 ### FishTools Studio
@@ -155,18 +170,6 @@ See the [Web Tools README](https://github.com/openfishtools/web-tools#readme) fo
 
 Installers for macOS (`.pkg`) and Windows (`.exe`) are on the [FishTools releases page](https://github.com/openfishtools/CEP/releases).
 
----
-
-## Status
-
-| Project | Repository | Status | Focus |
-| :--- | :--- | :---: | :--- |
-| Website | [web](https://github.com/openfishtools/web) | `In Progress` | Migrating tools to Web Tools |
-| Web Tools | [web-tools](https://github.com/openfishtools/web-tools) | `Active` | Tool modules and CDN delivery |
-| FishTools | [CEP](https://github.com/openfishtools/CEP) | `Stable` | Up to date, no active tasks |
-| FishTools Studio | [Studio](https://github.com/openfishtools/Studio) | `In Progress` | Text engine development |
-
----
 
 ## Licenses
 
