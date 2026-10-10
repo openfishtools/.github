@@ -21,7 +21,7 @@
       <b>Website</b>
       <br />
       <sub>web</sub>
-      <br />
+      <br /><br />
       <a href="https://github.com/openfishtools/web"><img src="https://img.shields.io/github/package-json/v/openfishtools/web?style=flat&color=21262d&label=" alt="Website version" /></a>
     </td>
     <td align="center" width="25%">
@@ -30,7 +30,7 @@
       <b>Web Tools</b>
       <br />
       <sub>web-tools</sub>
-      <br />
+      <br /><br />
       <a href="https://github.com/openfishtools/web-tools"><img src="https://img.shields.io/github/package-json/v/openfishtools/web-tools?style=flat&color=21262d&label=" alt="Web Tools version" /></a>
     </td>
     <td align="center" width="25%">
@@ -39,7 +39,7 @@
       <b>FishTools</b>
       <br />
       <sub>CEP</sub>
-      <br />
+      <br /><br />
       <a href="https://github.com/openfishtools/CEP"><img src="https://img.shields.io/github/package-json/v/openfishtools/CEP?style=flat&color=21262d&label=" alt="FishTools version" /></a>
     </td>
     <td align="center" width="25%">
@@ -48,7 +48,7 @@
       <b>FishTools</b>
       <br />
       <sub>Studio</sub>
-      <br />
+      <br /><br />
       <a href="https://github.com/openfishtools/Studio"><img src="https://img.shields.io/github/package-json/v/openfishtools/Studio?style=flat&color=21262d&label=" alt="FishTools Studio version" /></a>
     </td>
   </tr>
