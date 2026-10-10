@@ -21,7 +21,11 @@
 <table>
   <tr>
     <td align="center" width="25%">
-      <a href="https://github.com/openfishtools/Studio"><img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/projects/studio.png" width="96" height="96" alt="Studio" /></a>
+      <a href="https://github.com/openfishtools/CEP"><img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/projects/cep.svg" width="96" height="96" alt="CEP" /></a>
+      <br /><sub><b>CEP</b></sub>
+    </td>
+    <td align="center" width="25%">
+      <a href="https://github.com/openfishtools/Studio"><img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/projects/studio.svg" width="96" height="96" alt="Studio" /></a>
       <br /><sub><b>Studio</b></sub>
     </td>
     <td align="center" width="25%">
@@ -31,10 +35,6 @@
     <td align="center" width="25%">
       <a href="https://github.com/openfishtools/web-tools"><img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/projects/web-tools.svg" width="96" height="96" alt="web-tools" /></a>
       <br /><sub><b>web-tools</b></sub>
-    </td>
-    <td align="center" width="25%">
-      <a href="https://github.com/openfishtools/CEP"><img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/projects/cep.svg" width="96" height="96" alt="CEP" /></a>
-      <br /><sub><b>CEP</b></sub>
     </td>
   </tr>
 </table>
