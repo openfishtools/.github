@@ -18,31 +18,35 @@
     <td align="center" width="25%">
       <a href="https://github.com/openfishtools/web"><img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/projects/web.svg" width="96" height="96" alt="Website" /></a>
       <br /><b>Website</b>
+      <br /><code>v1.0.0</code>
       <br /><sub>web</sub>
     </td>
     <td align="center" width="25%">
       <a href="https://github.com/openfishtools/web-tools"><img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/projects/web-tools.svg" width="96" height="96" alt="Web Tools" /></a>
       <br /><b>Web Tools</b>
+      <br /><code>v1.0.0</code>
       <br /><sub>web-tools</sub>
     </td>
     <td align="center" width="25%">
       <a href="https://github.com/openfishtools/CEP"><img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/projects/cep.svg" width="96" height="96" alt="FishTools" /></a>
       <br /><b>FishTools</b>
+      <br /><code>v1.3.9</code>
       <br /><sub>CEP</sub>
     </td>
     <td align="center" width="25%">
       <a href="https://github.com/openfishtools/Studio"><img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/projects/studio.svg" width="96" height="96" alt="FishTools" /></a>
       <br /><b>FishTools</b>
+      <br /><code>v0.5.132</code>
       <br /><sub>Studio</sub>
     </td>
   </tr>
 </table>
 </div>
 
-- **Website**: the OpenFishTools website, which hosts the tools.
-- **Web Tools**: the tool scripts that the website loads. They can also be loaded from a CDN.
-- **FishTools**: an After Effects panel for easing, auto save and conversion to Alight Motion. Requires After Effects.
-- **FishTools Studio**: the standalone version of FishTools. It has its own timeline, keyframes and effects, so After Effects is not required.
+- **Website** (`v1.0.0`): the OpenFishTools website, which hosts the tools.
+- **Web Tools** (`v1.0.0`): the tool scripts that the website loads. They can also be loaded from a CDN.
+- **FishTools** (`v1.3.9`): an After Effects panel for easing, auto save and conversion to Alight Motion. Requires After Effects.
+- **FishTools Studio** (`v0.5.132`): the standalone version of FishTools. It has its own timeline, keyframes and effects, so After Effects is not required.
 
 ---
 
@@ -143,12 +147,12 @@ Installers for macOS (`.pkg`) and Windows (`.exe`) are on the [FishTools release
 
 ## Status
 
-| Project | Repository | Status | Focus |
-| :--- | :--- | :---: | :--- |
-| Website | [web](https://github.com/openfishtools/web) | `In Progress` | Migrating tools to Web Tools |
-| Web Tools | [web-tools](https://github.com/openfishtools/web-tools) | `Active` | Tool modules and CDN delivery |
-| FishTools | [CEP](https://github.com/openfishtools/CEP) | `Stable` | Up to date, no active tasks |
-| FishTools Studio | [Studio](https://github.com/openfishtools/Studio) | `In Progress` | Text engine development |
+| Project | Repository | Version | Status | Focus |
+| :--- | :--- | :---: | :---: | :--- |
+| Website | [web](https://github.com/openfishtools/web) | `v1.0.0` | `In Progress` | Migrating tools to Web Tools |
+| Web Tools | [web-tools](https://github.com/openfishtools/web-tools) | `v1.0.0` | `Active` | Tool modules and CDN delivery |
+| FishTools | [CEP](https://github.com/openfishtools/CEP) | `v1.3.9` | `Stable` | Up to date, no active tasks |
+| FishTools Studio | [Studio](https://github.com/openfishtools/Studio) | `v0.5.132` | `In Progress` | Text engine development |
 
 ---
 
