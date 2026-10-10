@@ -6,11 +6,6 @@
 
   **Open-source motion graphics and video editing tools.**
 
-  <a href="https://github.com/openfishtools/Studio"><img src="https://img.shields.io/badge/Studio-In_Progress-9DFF00?style=for-the-badge&labelColor=121212" alt="Studio" /></a>
-  <a href="https://github.com/openfishtools/web"><img src="https://img.shields.io/badge/Web-In_Progress-9DFF00?style=for-the-badge&labelColor=121212" alt="Web" /></a>
-  <a href="https://github.com/openfishtools/CEP"><img src="https://img.shields.io/badge/CEP-Stable-229200?style=for-the-badge&labelColor=121212" alt="CEP" /></a>
-  <a href="https://github.com/openfishtools/web-tools"><img src="https://img.shields.io/badge/Web_Tools-Active-229200?style=for-the-badge&labelColor=121212" alt="Web Tools" /></a>
-
 </div>
 
 ---
@@ -21,37 +16,42 @@
 <table>
   <tr>
     <td align="center" width="25%">
-      <a href="https://github.com/openfishtools/CEP"><img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/projects/cep.svg" width="96" height="96" alt="CEP" /></a>
-      <br /><sub><b>CEP</b></sub>
+      <a href="https://github.com/openfishtools/web"><img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/projects/web.svg" width="96" height="96" alt="Website" /></a>
+      <br /><b>Website</b>
+      <br /><sub>web</sub>
     </td>
     <td align="center" width="25%">
-      <a href="https://github.com/openfishtools/Studio"><img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/projects/studio.svg" width="96" height="96" alt="Studio" /></a>
-      <br /><sub><b>Studio</b></sub>
+      <a href="https://github.com/openfishtools/web-tools"><img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/projects/web-tools.svg" width="96" height="96" alt="Web Tools" /></a>
+      <br /><b>Web Tools</b>
+      <br /><sub>web-tools</sub>
     </td>
     <td align="center" width="25%">
-      <a href="https://github.com/openfishtools/web"><img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/projects/web.svg" width="96" height="96" alt="web" /></a>
-      <br /><sub><b>web</b></sub>
+      <a href="https://github.com/openfishtools/CEP"><img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/projects/cep.svg" width="96" height="96" alt="FishTools" /></a>
+      <br /><b>FishTools</b>
+      <br /><sub>CEP</sub>
     </td>
     <td align="center" width="25%">
-      <a href="https://github.com/openfishtools/web-tools"><img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/projects/web-tools.svg" width="96" height="96" alt="web-tools" /></a>
-      <br /><sub><b>web-tools</b></sub>
+      <a href="https://github.com/openfishtools/Studio"><img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/projects/studio.svg" width="96" height="96" alt="FishTools Studio" /></a>
+      <br /><b>FishTools Studio</b>
+      <br /><sub>Studio</sub>
     </td>
   </tr>
 </table>
 </div>
 
-- **Studio**: the standalone version of CEP. It has its own timeline, keyframes and effects, so After Effects is not required.
-- **Web Tools**: small utilities for video, audio, image and Alight Motion files.
-- **CEP**: an After Effects panel for easing, auto save and conversion to Alight Motion. Requires After Effects.
+- **Website**: the OpenFishTools website, which hosts the tools.
+- **Web Tools**: the tool scripts that the website loads. They can also be loaded from a CDN.
+- **FishTools**: an After Effects panel for easing, auto save and conversion to Alight Motion. Requires After Effects.
+- **FishTools Studio**: the standalone version of FishTools. It has its own timeline, keyframes and effects, so After Effects is not required.
 
 ---
 
 ## Showcase
 
-### Studio
+### FishTools Studio
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/screenshots/studio-desktop.png" alt="Studio desktop editor" width="100%" />
+  <img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/screenshots/studio-desktop.png" alt="FishTools Studio desktop editor" width="100%" />
 </div>
 
 <br />
@@ -59,7 +59,7 @@
 <table>
   <tr>
     <td width="30%" align="center">
-      <img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/screenshots/studio-mobile.png" alt="Studio mobile editor" width="100%" />
+      <img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/screenshots/studio-mobile.png" alt="FishTools Studio mobile editor" width="100%" />
       <br /><sub><b>Mobile editor</b><br />Touch timeline and gesture controls</sub>
     </td>
     <td width="70%" valign="top">
@@ -71,7 +71,7 @@
         <li><b>Local export</b> through WebCodecs and MP4 muxing, with no cloud rendering.</li>
         <li><b>Zero-dependency dev server</b> with live reload and an optional tunnel.</li>
       </ul>
-      <a href="https://github.com/openfishtools/Studio">Open the Studio repository</a>
+      <a href="https://github.com/openfishtools/Studio">Open the FishTools Studio repository</a>
     </td>
   </tr>
 </table>
@@ -114,11 +114,11 @@ Each tool is a standalone script. It can be loaded from the CDN without cloning 
 <script src="https://cdn.jsdelivr.net/gh/openfishtools/web-tools/video/audio-extractor-tool.js"></script>
 ```
 
-See the [web-tools README](https://github.com/openfishtools/web-tools#readme) for the full integration guide.
+See the [Web Tools README](https://github.com/openfishtools/web-tools#readme) for the full integration guide.
 
 ---
 
-### CEP
+### FishTools
 
 <table>
   <tr>
@@ -137,38 +137,31 @@ See the [web-tools README](https://github.com/openfishtools/web-tools#readme) fo
   </tr>
 </table>
 
-Installers for macOS (`.pkg`) and Windows (`.exe`) are on the [CEP releases page](https://github.com/openfishtools/CEP/releases).
+Installers for macOS (`.pkg`) and Windows (`.exe`) are on the [FishTools releases page](https://github.com/openfishtools/CEP/releases).
 
 ---
 
-## Ecosystem
+## Status
 
-| Repository | Stack | Status | Focus |
+| Project | Repository | Status | Focus |
 | :--- | :--- | :---: | :--- |
-| [**Studio**](https://github.com/openfishtools/Studio) | JavaScript, Canvas, WebCodecs | `In Progress` | Text engine development |
-| [**web**](https://github.com/openfishtools/web) | HTML, CSS, JavaScript | `In Progress` | Migrating tools to web-tools |
-| [**web-tools**](https://github.com/openfishtools/web-tools) | JavaScript, FFmpeg.wasm, WebGPU | `Active` | Headless tool modules and CDN delivery |
-| [**CEP**](https://github.com/openfishtools/CEP) | ExtendScript, CEP | `Stable` | Up to date, no active tasks |
-
+| Website | [web](https://github.com/openfishtools/web) | `In Progress` | Migrating tools to Web Tools |
+| Web Tools | [web-tools](https://github.com/openfishtools/web-tools) | `Active` | Tool modules and CDN delivery |
+| FishTools | [CEP](https://github.com/openfishtools/CEP) | `Stable` | Up to date, no active tasks |
+| FishTools Studio | [Studio](https://github.com/openfishtools/Studio) | `In Progress` | Text engine development |
 
 ---
-
-## Contributing
-
-1. Fork the repository you want to improve.
-2. Create a branch and keep changes focused.
-3. Open a pull request describing what changed and why.
 
 ## Licenses
 
 Each repository has its own license. Check the `LICENSE` file before reusing code.
 
-| Repository | License |
+| Project | License |
 | :--- | :--- |
-| Studio | MIT |
-| CEP | MIT |
-| web | CC BY-NC-ND 4.0 |
-| web-tools | CC BY-NC 4.0 |
+| Website | CC BY-NC-ND 4.0 |
+| Web Tools | CC BY-NC 4.0 |
+| FishTools | MIT |
+| FishTools Studio | MIT |
 
 <div align="center">
   <sub>OpenFishTools</sub>
