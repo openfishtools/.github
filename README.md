@@ -17,6 +17,29 @@
 
 ## Projects
 
+<div align="center">
+<table>
+  <tr>
+    <td align="center" width="25%">
+      <a href="https://github.com/openfishtools/Studio"><img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/projects/studio.png" width="96" height="96" alt="Studio" /></a>
+      <br /><sub><b>Studio</b></sub>
+    </td>
+    <td align="center" width="25%">
+      <a href="https://github.com/openfishtools/web"><img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/projects/web.svg" width="96" height="96" alt="web" /></a>
+      <br /><sub><b>web</b></sub>
+    </td>
+    <td align="center" width="25%">
+      <a href="https://github.com/openfishtools/web-tools"><img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/projects/web-tools.svg" width="96" height="96" alt="web-tools" /></a>
+      <br /><sub><b>web-tools</b></sub>
+    </td>
+    <td align="center" width="25%">
+      <a href="https://github.com/openfishtools/CEP"><img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/projects/cep.svg" width="96" height="96" alt="CEP" /></a>
+      <br /><sub><b>CEP</b></sub>
+    </td>
+  </tr>
+</table>
+</div>
+
 - **Studio**: the standalone version of CEP. It has its own timeline, keyframes and effects, so After Effects is not required.
 - **Web Tools**: small utilities for video, audio, image and Alight Motion files.
 - **CEP**: an After Effects panel for easing, auto save and conversion to Alight Motion. Requires After Effects.
