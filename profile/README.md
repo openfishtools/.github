@@ -17,15 +17,15 @@
 
 ## Projects
 
-- **Studio**: a browser-based video editor with a multi-track timeline, keyframes and an effect plugin registry.
+- **Studio**: the standalone version of CEP. It has its own timeline, keyframes and effects, so After Effects is not required.
 - **Web Tools**: small utilities for video, audio, image and Alight Motion files.
-- **CEP**: an After Effects panel for easing, auto save and conversion to Alight Motion.
+- **CEP**: an After Effects panel for easing, auto save and conversion to Alight Motion. Requires After Effects.
 
 ---
 
 ## Showcase
 
-### Studio: browser-based motion graphics editor
+### Studio
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/screenshots/studio-desktop.png" alt="Studio desktop editor" width="100%" />
@@ -95,7 +95,7 @@ See the [web-tools README](https://github.com/openfishtools/web-tools#readme) fo
 
 ---
 
-### CEP: After Effects extension panel
+### CEP
 
 <table>
   <tr>
@@ -127,15 +127,6 @@ Installers for macOS (`.pkg`) and Windows (`.exe`) are on the [CEP releases page
 | [**web-tools**](https://github.com/openfishtools/web-tools) | JavaScript, FFmpeg.wasm, WebGPU | `Active` | Headless tool modules and CDN delivery |
 | [**CEP**](https://github.com/openfishtools/CEP) | ExtendScript, CEP | `Stable` | Up to date, no active tasks |
 
-```mermaid
-flowchart LR
-    AE["After Effects"] -->|"CEP panel"| AM["Alight Motion XML"]
-    AE -->|"projects and assets"| STU["Studio"]
-    STU -->|"WebCodecs export"| OUT["MP4 output"]
-    WT["web-tools modules"] -->|"CDN"| WEB["web"]
-    WT -->|"CDN"| YOU["Your own site"]
-    WEB --> OUT
-```
 
 ---
 
