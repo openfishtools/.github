@@ -17,27 +17,39 @@
   <tr>
     <td align="center" width="25%">
       <a href="https://github.com/openfishtools/web"><img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/projects/web.svg" width="96" height="96" alt="Website" /></a>
-      <br /><b>Website</b>
-      <br /><a href="https://github.com/openfishtools/web"><img src="https://img.shields.io/github/package-json/v/openfishtools/web?style=flat&color=21262d&label=" alt="Website version" /></a>
-      <br /><sub>web</sub>
+      <br />
+      <b>Website</b>
+      <br />
+      <sub>web</sub>
+      <br />
+      <a href="https://github.com/openfishtools/web"><img src="https://img.shields.io/github/package-json/v/openfishtools/web?style=flat&color=21262d&label=" alt="Website version" /></a>
     </td>
     <td align="center" width="25%">
       <a href="https://github.com/openfishtools/web-tools"><img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/projects/web-tools.svg" width="96" height="96" alt="Web Tools" /></a>
-      <br /><b>Web Tools</b>
-      <br /><a href="https://github.com/openfishtools/web-tools"><img src="https://img.shields.io/github/package-json/v/openfishtools/web-tools?style=flat&color=21262d&label=" alt="Web Tools version" /></a>
-      <br /><sub>web-tools</sub>
+      <br />
+      <b>Web Tools</b>
+      <br />
+      <sub>web-tools</sub>
+      <br />
+      <a href="https://github.com/openfishtools/web-tools"><img src="https://img.shields.io/github/package-json/v/openfishtools/web-tools?style=flat&color=21262d&label=" alt="Web Tools version" /></a>
     </td>
     <td align="center" width="25%">
       <a href="https://github.com/openfishtools/CEP"><img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/projects/cep.svg" width="96" height="96" alt="FishTools" /></a>
-      <br /><b>FishTools</b>
-      <br /><a href="https://github.com/openfishtools/CEP"><img src="https://img.shields.io/github/package-json/v/openfishtools/CEP?style=flat&color=21262d&label=" alt="FishTools version" /></a>
-      <br /><sub>CEP</sub>
+      <br />
+      <b>FishTools</b>
+      <br />
+      <sub>CEP</sub>
+      <br />
+      <a href="https://github.com/openfishtools/CEP"><img src="https://img.shields.io/github/package-json/v/openfishtools/CEP?style=flat&color=21262d&label=" alt="FishTools version" /></a>
     </td>
     <td align="center" width="25%">
       <a href="https://github.com/openfishtools/Studio"><img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/projects/studio.svg" width="96" height="96" alt="FishTools" /></a>
-      <br /><b>FishTools</b>
-      <br /><a href="https://github.com/openfishtools/Studio"><img src="https://img.shields.io/github/package-json/v/openfishtools/Studio?style=flat&color=21262d&label=" alt="FishTools Studio version" /></a>
-      <br /><sub>Studio</sub>
+      <br />
+      <b>FishTools</b>
+      <br />
+      <sub>Studio</sub>
+      <br />
+      <a href="https://github.com/openfishtools/Studio"><img src="https://img.shields.io/github/package-json/v/openfishtools/Studio?style=flat&color=21262d&label=" alt="FishTools Studio version" /></a>
     </td>
   </tr>
 </table>
