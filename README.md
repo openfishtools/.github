@@ -8,8 +8,11 @@
 
 </div>
 
+[English](#english) • [Bahasa Indonesia](#bahasa-indonesia)
+
 ---
 
+<a name="english"></a>
 ## Projects
 
 <div align="center">
@@ -170,7 +173,6 @@ See the [Web Tools README](https://github.com/openfishtools/web-tools#readme) fo
 
 Installers for macOS (`.pkg`) and Windows (`.exe`) are on the [FishTools releases page](https://github.com/openfishtools/CEP/releases).
 
-
 ## Licenses
 
 Each repository has its own license. Check the `LICENSE` file before reusing code.
@@ -179,8 +181,211 @@ Each repository has its own license. Check the `LICENSE` file before reusing cod
 | :--- | :--- |
 | Website | CC BY-NC-ND 4.0 |
 | Web Tools | CC BY-NC 4.0 |
-| FishTools | MIT |
-| FishTools Studio | MIT |
+| FishTools | CC BY-NC-SA 4.0 (from v1.3.10; MIT before) |
+| FishTools Studio | CC BY-NC-SA 4.0 (from v0.5.133; MIT before) |
+
+### License Notice
+
+> Starting from **FishTools v1.3.10** and **FishTools Studio v0.5.133**, both projects are licensed under **[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)** instead of MIT. Versions before these stay under MIT.
+>
+> | Y/N | Description |
+> |---|---|
+> | Yes | Use, modify and share for free for noncommercial purposes. |
+> | Yes | On condition: keep the credit to OpenFishTools, link to the license and say if you changed it. |
+> | Yes | On condition: share modified versions under the same license. |
+> | No | **Selling** the software or a modified version, or using it commercially. |
+> | No | **Removing the credit** (attribution). |
+
+<div align="center">
+  <sub>OpenFishTools</sub>
+</div>
+
+---
+
+<a name="bahasa-indonesia"></a>
+
+## Proyek
+
+<div align="center">
+<table>
+  <tr>
+    <td align="center" width="25%">
+      <a href="https://github.com/openfishtools/web"><img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/projects/web.svg" width="96" height="96" alt="Website" /></a>
+      <br />
+      <b>Website</b>
+      <br />
+      <sub>web</sub>
+      <br /><br />
+      <a href="https://github.com/openfishtools/web"><img src="https://img.shields.io/github/package-json/v/openfishtools/web?style=flat&color=21262d&label=" alt="Website version" /></a>
+    </td>
+    <td align="center" width="25%">
+      <a href="https://github.com/openfishtools/web-tools"><img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/projects/web-tools.svg" width="96" height="96" alt="Web Tools" /></a>
+      <br />
+      <b>Web Tools</b>
+      <br />
+      <sub>web-tools</sub>
+      <br /><br />
+      <a href="https://github.com/openfishtools/web-tools"><img src="https://img.shields.io/github/package-json/v/openfishtools/web-tools?style=flat&color=21262d&label=" alt="Web Tools version" /></a>
+    </td>
+    <td align="center" width="25%">
+      <a href="https://github.com/openfishtools/CEP"><img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/projects/cep.svg" width="96" height="96" alt="FishTools" /></a>
+      <br />
+      <b>FishTools</b>
+      <br />
+      <sub>CEP</sub>
+      <br /><br />
+      <a href="https://github.com/openfishtools/CEP"><img src="https://img.shields.io/github/package-json/v/openfishtools/CEP?style=flat&color=21262d&label=" alt="FishTools version" /></a>
+    </td>
+    <td align="center" width="25%">
+      <a href="https://github.com/openfishtools/Studio"><img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/projects/studio.svg" width="96" height="96" alt="FishTools" /></a>
+      <br />
+      <b>FishTools</b>
+      <br />
+      <sub>Studio</sub>
+      <br /><br />
+      <a href="https://github.com/openfishtools/Studio"><img src="https://img.shields.io/github/package-json/v/openfishtools/Studio?style=flat&color=21262d&label=" alt="FishTools Studio version" /></a>
+    </td>
+  </tr>
+</table>
+</div>
+
+- **Website**: situs OpenFishTools yang menjadi tempat tools berjalan.
+- **Web Tools**: script tools yang dimuat oleh website. Bisa juga dimuat lewat CDN.
+- **FishTools**: panel After Effects untuk easing, auto save, dan konversi ke Alight Motion. Membutuhkan After Effects.
+- **FishTools Studio**: versi mandiri FishTools. Punya timeline, keyframe, dan efek sendiri, jadi tidak membutuhkan After Effects.
+
+---
+
+<div align="center">
+
+## Status
+
+| Proyek | Repositori | Status | Fokus |
+| :--- | :--- | :---: | :--- |
+| Website | [web](https://github.com/openfishtools/web) | `Dalam Proses` | Memindahkan tools ke Web Tools |
+| Web Tools | [web-tools](https://github.com/openfishtools/web-tools) | `Aktif` | Modul tools dan distribusi lewat CDN |
+| FishTools | [CEP](https://github.com/openfishtools/CEP) | `Stabil` | Sudah terbaru, tidak ada tugas aktif |
+| FishTools Studio | [Studio](https://github.com/openfishtools/Studio) | `Dalam Proses` | Pengembangan text engine |
+
+</div>
+
+---
+
+## Showcase
+
+### FishTools Studio
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/screenshots/studio-desktop.png" alt="FishTools Studio desktop editor" width="100%" />
+</div>
+
+<br />
+
+<table>
+  <tr>
+    <td width="30%" align="center">
+      <img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/screenshots/studio-mobile.png" alt="FishTools Studio mobile editor" width="100%" />
+      <br /><sub><b>Editor mobile</b><br />Timeline sentuh dan kontrol gestur</sub>
+    </td>
+    <td width="70%" valign="top">
+      <h4>Sorotan</h4>
+      <ul>
+        <li><b>Desktop suite</b> dengan inspector yang menempel, header track, scrubbing playhead, dan graph editor kurva.</li>
+        <li><b>Editor mobile</b> dengan canvas yang menyesuaikan viewport dan timeline berbasis gestur.</li>
+        <li><b>Efek modular.</b> Setiap efek adalah satu file yang mendaftar ke <code>FishEffectsRegistry</code>, dengan binding parameter ke timeline otomatis.</li>
+        <li><b>Ekspor lokal</b> lewat WebCodecs dan MP4 muxing, tanpa rendering di cloud.</li>
+        <li><b>Dev server tanpa dependensi</b> dengan live reload dan tunnel opsional.</li>
+      </ul>
+      <a href="https://github.com/openfishtools/Studio">Buka repositori FishTools Studio</a>
+    </td>
+  </tr>
+</table>
+
+**Pratinjau pustaka efek**
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/effects/glow-aura.png" width="15%" alt="Glow Aura" />
+  <img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/effects/deep-glow.png" width="15%" alt="Deep Glow" />
+  <img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/effects/chromatic-aberration.png" width="15%" alt="Chromatic Aberration" />
+  <img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/effects/anamorphic-flare.png" width="15%" alt="Anamorphic Flare" />
+  <img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/effects/rgb-split.png" width="15%" alt="RGB Split" />
+  <img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/effects/shatter.png" width="15%" alt="Shatter" />
+</div>
+
+---
+
+### Web Tools
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/openfishtools/.github/main/profile/assets/screenshots/web-tools-grid.png" alt="Creative Tools grid" width="100%" />
+</div>
+
+| Tool | Kategori | Fungsi |
+| :--- | :--- | :--- |
+| **Remove Background** | AI | Matting video dan gambar dengan MediaPipe, RVM, dan MODNet |
+| **Media Upscaler** | AI | Upscale dengan bantuan GPU dan preset peningkatan yang bisa dipilih |
+| **Video Compressor** | Video | Encode ulang ke ukuran target dengan FFmpeg WebAssembly |
+| **Audio Extractor** | Video | Ambil MP3 bersih dari video apa pun |
+| **Image Sequence to Video** | Video | Ubah ZIP berisi frame menjadi video, dengan audio opsional |
+| **Video Interpolation** | Video | Naikkan frame rate 2x, 4x, atau 8x |
+| **AE to AM** | Converters | Marker beat After Effects ke XML Alight Motion |
+| **5MB XML Generator** | Converters | Perkecil proyek Alight Motion dengan aman |
+| **Quality method** | TikTok | Patch dan kompres video untuk upload berkualitas lebih tinggi |
+| **TikTok Downloader / Statistics** | TikTok | Unduh tanpa watermark, periksa metadata |
+
+Setiap tool adalah script mandiri. Bisa dimuat dari CDN tanpa meng-clone repositori:
+
+```html
+<script src="https://cdn.jsdelivr.net/gh/openfishtools/web-tools/video/audio-extractor-tool.js"></script>
+```
+
+Lihat [README Web Tools](https://github.com/openfishtools/web-tools#readme) untuk panduan integrasi lengkap.
+
+---
+
+### FishTools
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>Graph Editor dan Easing</h4>
+      Handle bezier interaktif, preset easing, dan toggle auto-apply.
+      <h4>Konverter AE ke AM</h4>
+      Komposisi ke XML Alight Motion, dengan embedding pre-comp dan expression baking opsional.
+    </td>
+    <td width="50%" valign="top">
+      <h4>Auto Save</h4>
+      Backup proyek di latar belakang dengan nama berstempel waktu.
+      <h4>Utilitas Layer dan Transform</h4>
+      Anchor grid, auto-crop pintar, pengubah rasio comp dan FPS, preset text animator.
+    </td>
+  </tr>
+</table>
+
+Installer untuk macOS (`.pkg`) dan Windows (`.exe`) tersedia di [halaman rilis FishTools](https://github.com/openfishtools/CEP/releases).
+
+## Lisensi
+
+Setiap repositori punya lisensinya sendiri. Periksa file `LICENSE` sebelum memakai ulang kode.
+
+| Proyek | Lisensi |
+| :--- | :--- |
+| Website | CC BY-NC-ND 4.0 |
+| Web Tools | CC BY-NC 4.0 |
+| FishTools | CC BY-NC-SA 4.0 (mulai v1.3.10; sebelumnya MIT) |
+| FishTools Studio | CC BY-NC-SA 4.0 (mulai v0.5.133; sebelumnya MIT) |
+
+### Pemberitahuan Lisensi
+
+> Mulai dari **FishTools v1.3.10** dan **FishTools Studio v0.5.133**, kedua proyek ini dilisensikan di bawah **[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.id)**, bukan lagi MIT. Versi sebelumnya tetap MIT.
+>
+> | B/T | Keterangan |
+> |---|---|
+> | Boleh | Memakai, memodifikasi, dan membagikan secara gratis untuk keperluan non-komersial. |
+> | Boleh | Dengan syarat: tetap mencantumkan kredit ke OpenFishTools, menyertakan tautan lisensi, dan menyebut kalau ada perubahan. |
+> | Boleh | Dengan syarat: versi modifikasi dibagikan dengan lisensi yang sama. |
+> | Tidak | **Memperjualbelikan** software atau versi modifikasinya, atau memakainya secara komersial. |
+> | Tidak | **Menghapus kredit** (atribusi). |
 
 <div align="center">
   <sub>OpenFishTools</sub>

@@ -22,4 +22,4 @@ Every production README must contain the following sections in order:
 5. **Ecosystem & Sub-Projects Table**: Interactive inventory linking to active repositories with tech stack tags.
 6. **Mermaid Flowchart**: Visualizing the pipeline between After Effects, Web Studio, and output targets.
 7. **Quickstart Matrix**: Collapsible `<details><summary>` sections for installation and local dev instructions.
-8. **Contributing & License**: Standard open-source contribution workflow under the MIT License.
+8. **Contributing & License**: Standard open-source contribution workflow under the license stated in each repository (FishTools and FishTools Studio: CC BY-NC-SA 4.0).
