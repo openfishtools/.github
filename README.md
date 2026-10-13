@@ -71,10 +71,10 @@
 
 | Project | Repository | Status | Focus |
 | :--- | :--- | :---: | :--- |
-| Website | [web](https://github.com/openfishtools/web) | `In Progress` | Migrating tools to Web Tools |
-| Web Tools | [web-tools](https://github.com/openfishtools/web-tools) | `Active` | Tool modules and CDN delivery |
+| Website | [web](https://github.com/openfishtools/web) | `Stable` | Up to date, no active tasks |
+| Web Tools | [web-tools](https://github.com/openfishtools/web-tools) | `Stable` | Up to date, no active tasks |
 | FishTools | [CEP](https://github.com/openfishtools/CEP) | `Stable` | Up to date, no active tasks |
-| FishTools Studio | [Studio](https://github.com/openfishtools/Studio) | `In Progress` | Text engine development |
+| FishTools Studio | [Studio](https://github.com/openfishtools/Studio) | `Stable` | Up to date, no active tasks |
 
 </div>
 
@@ -181,20 +181,25 @@ Each repository has its own license. Check the `LICENSE` file before reusing cod
 | :--- | :--- |
 | Website | CC BY-NC-ND 4.0 |
 | Web Tools | CC BY-NC 4.0 |
-| FishTools | CC BY-NC-SA 4.0 (from v1.3.10; MIT before) |
-| FishTools Studio | CC BY-NC-SA 4.0 (from v0.5.133; MIT before) |
+| FishTools | GNU AGPLv3 (from v1.3.10; MIT before) |
+| FishTools Studio | GNU AGPLv3 (from v0.5.133; MIT before) |
 
 ### License Notice
 
-> Starting from **FishTools v1.3.10** and **FishTools Studio v0.5.133**, both projects are licensed under **[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)** instead of MIT. Versions before these stay under MIT.
+> Starting from **FishTools v1.3.10** and **FishTools Studio v0.5.133**, both projects are licensed under **[GNU AGPLv3](https://www.gnu.org/licenses/agpl-3.0.html)** instead of MIT. Versions before these stay under MIT.
 >
 > | Y/N | Description |
 > |---|---|
-> | Yes | Use, modify and share for free for noncommercial purposes. |
-> | Yes | On condition: keep the credit to OpenFishTools, link to the license and say if you changed it. |
-> | Yes | On condition: share modified versions under the same license. |
-> | No | **Selling** the software or a modified version, or using it commercially. |
-> | No | **Removing the credit** (attribution). |
+> | Yes | Use, modify, and share freely for personal or commercial purposes. |
+> | Yes | Run your own server or standalone deployment. |
+> | Required | **Disclose Source Code (Copyleft):** Any modified versions or web deployments must disclose their complete source code under AGPLv3. |
+> | Required | Keep the attribution and copyright notices to OpenFishTools. |
+> | Required | Share modified versions under the same AGPL-3.0 license. |
+> | No | Distribute or deploy closed-source modified versions. |
+> | No | Remove original credits or author attribution. |
+>
+> **Important Fork & Web Deployment Notice:**  
+> If you fork this repository and deploy it to the web, the built-in effects engine (`effects.wasm`) is locked to the official domain and will display an anti-tamper watermark if accessed outside of it. You will need to manually remake the effects if you wish to run custom effects on your own deployment. To access and use these effects officially and fully without watermarks, visit the official domain: **[studio.cutefish.my.id](https://studio.cutefish.my.id)**.
 
 <div align="center">
   <sub>OpenFishTools</sub>
@@ -262,10 +267,10 @@ Each repository has its own license. Check the `LICENSE` file before reusing cod
 
 | Proyek | Repositori | Status | Fokus |
 | :--- | :--- | :---: | :--- |
-| Website | [web](https://github.com/openfishtools/web) | `Dalam Proses` | Memindahkan tools ke Web Tools |
-| Web Tools | [web-tools](https://github.com/openfishtools/web-tools) | `Aktif` | Modul tools dan distribusi lewat CDN |
+| Website | [web](https://github.com/openfishtools/web) | `Stabil` | Sudah terbaru, tidak ada tugas aktif |
+| Web Tools | [web-tools](https://github.com/openfishtools/web-tools) | `Stabil` | Sudah terbaru, tidak ada tugas aktif |
 | FishTools | [CEP](https://github.com/openfishtools/CEP) | `Stabil` | Sudah terbaru, tidak ada tugas aktif |
-| FishTools Studio | [Studio](https://github.com/openfishtools/Studio) | `Dalam Proses` | Pengembangan text engine |
+| FishTools Studio | [Studio](https://github.com/openfishtools/Studio) | `Stabil` | Sudah terbaru, tidak ada tugas aktif |
 
 </div>
 
@@ -372,20 +377,25 @@ Setiap repositori punya lisensinya sendiri. Periksa file `LICENSE` sebelum memak
 | :--- | :--- |
 | Website | CC BY-NC-ND 4.0 |
 | Web Tools | CC BY-NC 4.0 |
-| FishTools | CC BY-NC-SA 4.0 (mulai v1.3.10; sebelumnya MIT) |
-| FishTools Studio | CC BY-NC-SA 4.0 (mulai v0.5.133; sebelumnya MIT) |
+| FishTools | GNU AGPLv3 (mulai v1.3.10; sebelumnya MIT) |
+| FishTools Studio | GNU AGPLv3 (mulai v0.5.133; sebelumnya MIT) |
 
 ### Pemberitahuan Lisensi
 
-> Mulai dari **FishTools v1.3.10** dan **FishTools Studio v0.5.133**, kedua proyek ini dilisensikan di bawah **[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.id)**, bukan lagi MIT. Versi sebelumnya tetap MIT.
+> Mulai dari **FishTools v1.3.10** dan **FishTools Studio v0.5.133**, kedua proyek ini dilisensikan di bawah **[GNU AGPLv3](https://www.gnu.org/licenses/agpl-3.0.html)**, bukan lagi MIT. Versi sebelumnya tetap MIT.
 >
 > | B/T | Keterangan |
 > |---|---|
-> | Boleh | Memakai, memodifikasi, dan membagikan secara gratis untuk keperluan non-komersial. |
-> | Boleh | Dengan syarat: tetap mencantumkan kredit ke OpenFishTools, menyertakan tautan lisensi, dan menyebut kalau ada perubahan. |
-> | Boleh | Dengan syarat: versi modifikasi dibagikan dengan lisensi yang sama. |
-> | Tidak | **Memperjualbelikan** software atau versi modifikasinya, atau memakainya secara komersial. |
-> | Tidak | **Menghapus kredit** (atribusi). |
+> | Boleh | Memakai, memodifikasi, dan membagikan secara bebas (pribadi maupun komersial). |
+> | Boleh | Menjalankan server atau deployment mandiri. |
+> | Wajib | **Membuka Source Code (Copyleft):** Setiap modifikasi atau deployment web wajib merilis seluruh source code lengkapnya di bawah AGPLv3. |
+> | Wajib | Tetap mencantumkan kredit dan hak cipta OpenFishTools. |
+> | Wajib | Membagikan versi modifikasi dengan lisensi yang sama persis (AGPL-3.0). |
+> | Tidak | Menutup source code (*closed source*) saat mendistribusikan atau menjalankannya ke publik. |
+> | Tidak | Menghapus kredit (atribusi). |
+>
+> **Pemberitahuan Penting Deployment / Forking:**  
+> Jika Anda melakukan *fork* repositori ini dan men-deploy-nya sendiri di web, seluruh efek bawaan (`effects.wasm`) terikat pada domain resmi dan akan memunculkan watermark proteksi jika dijalankan di luar domain resmi. Anda harus membuat ulang (*remake*) efek secara manual jika ingin menggunakan efek pada deployment mandiri. Jika ingin mengakses dan menikmati seluruh efek ini secara resmi dan penuh tanpa watermark, silakan kunjungi domain resmi: **[studio.cutefish.my.id](https://studio.cutefish.my.id)**.
 
 <div align="center">
   <sub>OpenFishTools</sub>
